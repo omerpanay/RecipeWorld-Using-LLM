@@ -1,0 +1,35 @@
+name: firebase2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.7.0
+  firebase_auth: ^5.3.2
+  google_sign_in: ^6.2.2
+  cupertino_icons: ^1.0.8
+
+flutter:
+  assets:
+    - assets/images/yemek3.webp
+    - assets/images/yemek4.jpg
+    - assets/images/yemek5.webp
+    - assets/images/yemek7.jpeg
+    - assets/images/yemek6.webp
+    - assets/images/food_background.webp
+    - assets/images/corba.jpeg
+    - assets/images/et.jpeg
+    - assets/images/hamur.jpg
+    - assets/images/tatli.jpg
+    - assets/images/diyet.jpg
+    - assets/images/balik.webp
+    - assets/images/tavuk.webp
+    - assets/images/cigkofte.jpeg
+    - assets/images/dondurma.jpeg
