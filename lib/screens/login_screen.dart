@@ -98,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                       Navigator.pushNamed(context, '/register');
                     },
                     child: Text(
-                      'Dont you havent account Register',
+                      'Dont you have account ?  -Register-',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),

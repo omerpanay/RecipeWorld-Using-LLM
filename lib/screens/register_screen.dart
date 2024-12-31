@@ -27,7 +27,7 @@ class RegisterScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    'Kayıt Ol',
+                    'Register',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
