@@ -22,7 +22,6 @@ class RecipeDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Yemeğin görseli
             Container(
               width: double.infinity,
               height: 250,
@@ -33,13 +32,11 @@ class RecipeDetailScreen extends StatelessWidget {
                 ),
               ),
             ),
-            // Tarif adı ve detaylar
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Tarif adı
                   Center(
                     child: Text(
                       recipeName,
@@ -61,7 +58,6 @@ class RecipeDetailScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10),
-                  // Talimat listesi
                   ...instructions.asMap().entries.map((entry) {
                     int index = entry.key + 1;
                     String instruction = entry.value;

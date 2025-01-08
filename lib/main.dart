@@ -1,13 +1,31 @@
-// lib/main.dart
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart'; // dotenv için gerekli
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+
+  // Firebase başlatma işlemi
+  try {
+    await Firebase.initializeApp();
+    print("Firebase başarıyla başlatıldı.");
+  } catch (e) {
+    print("Firebase başlatma hatası: $e");
+  }
+
+  // Dotenv yükleme işlemi
+  try {
+    await dotenv.load(
+        fileName:
+            "C:\Users\Public\firebase2\.env"); // .env dosyasını yüklüyoruz
+    print("Dotenv başarıyla yüklendi: ${dotenv.env['API_KEY']}");
+  } catch (e) {
+    print("Dotenv yükleme hatası: $e");
+  }
+
   runApp(MyApp());
 }
 
@@ -22,6 +40,7 @@ class MyApp extends StatelessWidget {
         '/register': (context) => RegisterScreen(),
         '/home': (context) => HomeScreen(),
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }

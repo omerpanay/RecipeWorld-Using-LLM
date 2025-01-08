@@ -19,6 +19,7 @@ dependencies:
   permission_handler: ^11.3.1
   flutter_speed_dial: ^7.0.0
   google_fonts: ^6.2.1
+  flutter_dotenv: ^5.2.1
 
 
 flutter:
@@ -40,3 +41,27 @@ flutter:
     - assets/images/cigkofte.jpeg
     - assets/images/dondurma.jpeg
     - assets/images/recipe_app_banner3.jpg
+    - assets/images/walnut.jpg
+    - assets/images/vanilla_icecream.jpg
+    - assets/images/traditional.jpg
+    - assets/images/tomato_soup.jpg
+    - assets/images/steamed_vegetables.jpg
+    - assets/images/spinach_pastry.jpeg
+    - assets/images/meatball.jpg
+    - assets/images/lentil_soup.jpg
+    - assets/images/grilled_steak.jpg
+    - assets/images/grilled_salmon.jpg
+    - assets/images/chocolate_ice.jpeg
+    - assets/images/chicken_soup.jpg
+    - assets/images/cheese_pastry.jpg
+    - assets/images/brownies.jpg
+    - assets/images/beef_stew.jpg
+    - assets/images/baklava.jpg
+    - assets/images/baked_see_bas.jpg
+    - assets/images/rice_pudding.jpg
+    - assets/images/quinoa_salad.jpg
+
+
+
+
+

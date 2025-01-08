@@ -21,15 +21,15 @@ class RecipeService {
             {
               "role": "system",
               "content":
-                  "You are a helpful assistant that generates recipes strictly using only the ingredients provided by the user. Do not add any additional ingredients."
+                  "You are a helpful assistant that generates recipes with only given ingredients."
             },
             {
               "role": "user",
               "content":
-                  "Create a recipe using only these ingredients: $ingredients. Please do not include any other ingredients."
+                  "Create a recipe using these ingredients : $ingredients"
             }
           ],
-          "max_tokens": 350,
+          "max_tokens": 250,
           "temperature": 0.7,
           "top_p": 1.0,
         }),
