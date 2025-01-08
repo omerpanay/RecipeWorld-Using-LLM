@@ -55,4 +55,4 @@ This project is licensed under the MIT License.
 
 ### Contact
 For any queries or contributions, 
--feel free to reach out at omerpanay10@gmail.com.
+- feel free to reach out at omerpanay10@gmail.com.
